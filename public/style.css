@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: rgb(200, 194, 24);
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.user{
+    margin:12px;
+    font-size: 20px;
+}
+
+.text{
+    margin: 12px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: yellowgreen;
+    margin: 12px;
+    color: blue;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ec9f2b;
+    box-shadow: 0 0 5px 4px rgba(167, 27, 108, 0.8), 
+                0 0 5px 5px rgba(238, 42, 179, 0.6);
+    transform: scale(1.05); 
+}
